@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/mainlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="请输入订单号："/>
+        <EditText
+            android:id="@+id/pay_order_number_EditText01"
+            android:layout_width="100px"
+            android:layout_height="wrap_content"
+            android:text=""/>
+        <Button
+            android:id="@+id/pay_query_Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询"/>
+
+    </LinearLayout>
+    <WebView
+        android:id="@+id/pay_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="300px"/>
+
+    <Button
+        android:id="@+id/pay_Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="结算"/>
+
+</LinearLayout>
+
+
+
+
